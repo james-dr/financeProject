@@ -1,0 +1,19 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+.menuIcon {
+    padding: 5px;
+}
+.menuIcon > .MuiSvgIcon-root {
+    font-size: 30px;
+}

@@ -1,0 +1,46 @@
+.homeScreen {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #3cb2ef;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #3cb2ef;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.header > h2 {
+    display: flex;
+    color: white;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex: 40%;
+    max-width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menuImage {
+    flex: 60%;
+    max-width: 60%;
+}
+
+.menuImage > img {
+    width: auto;
+    height: 300px;
+}
+
+.menuItem:hover ~ .backgroundImage {
+    background-color: black;
+}
